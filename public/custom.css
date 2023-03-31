@@ -1,0 +1,327 @@
+.mt-20 {
+    margin-top: 20px;
+}
+.-mt-20 {
+    margin-top: -20px;
+}
+.-mt-5 {
+    margin-top: -5px !important;
+}
+.mr-10 {
+    margin-right: 10px;
+}
+.btn-nobr {
+    border-color: rgba(0, 0, 0, 0);
+    /* disable shadows */
+    box-shadow: none;   
+}
+
+.x32hj4grdhjg32f {
+    color: #97b764;
+}
+
+.c34k5hkjhw3jk4 {
+    color: #DDE0E2;
+}
+
+.jsgfhjsa3242 {
+    color: #5C6549;
+}
+
+.c34k5hkjhw3jk3 {
+    font-size: 30px;
+}
+
+.jaskh234kjh {
+    margin-top: -50px;
+}
+
+.fdsk2j3h4j {
+    margin-left: 5px;
+}
+
+.fdsk2j3h5j {
+    margin-right: 5px;
+}
+
+.hdhjksg3 {
+    margin-bottom: -30px;
+}
+
+.fdsk2j3h5jlrx {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.wezgr {
+    max-width: 20% !important;
+    /* align everything center (horizzonatly centerd) */
+    margin: 0 auto !important;
+}
+
+.center_234ghjwegr {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container_234ghjwegr {
+    height: 200px;
+    position: relative;
+}
+
+/* IF SCREEN IS MAX 640PX THEN*/
+@media screen and (max-width: 640px) {
+    .fdsk2j3h5j {
+        margin-right: 0px;
+    }
+    .fdsk2j3h4j {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    .fdsk2j3h5jlr {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
+
+.css-aqqxug-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+    background-color: #86ac3e;
+}
+
+.buztfahsjdgbfajkshdf {
+    background: none !important;
+    color: inherit !important;
+    border: none !important;
+    padding: 0 !important;
+    font: inherit !important;
+    cursor: pointer !important;
+    outline: inherit !important;
+}
+
+.aizug3234_a {
+    width: 28 !important;
+    height: 28 !important;
+    margin-left: -0.5 !important;
+    margin-right: 1 !important;
+    color: 'white' !important;
+}
+
+.aklshjbkz2314a {
+    color: white !important;
+}
+
+.col2b34z {
+    color: '#151719' !important;
+}
+
+.asd {
+    display: 'flex';
+    justify-content: 'center';
+    align-items: 'center';
+    margin-top: 20px !important;
+}
+.css-1aquho2-MuiTabs-indicator {
+    background-color: #768d5c !important;
+}
+
+.br-30 {
+    border-radius: 30px !important;
+}
+
+.sdkjhf {
+    height: 5px !important;
+}
+
+.card {
+    background-color: #1d1f21 !important;
+}
+
+.col-sm-3, .my-3, .text-primaryx {
+    color: #768d5c !important;
+}
+
+.rounded {
+    border-radius: 0.25rem !important;
+}
+
+.transaction-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+}
+
+.transaction-items {
+    display: flex;
+    align-items: center;
+}
+
+.buyBtcg:hover, .li_buy a:hover {
+    color: #1d1f21 !important;
+}
+
+.list-group-item {
+    background-color: #1d1f21 !important;
+}
+
+.form-payments {
+    width: 30vw;
+    min-width: 500px;
+    align-self: center;
+    box-shadow: 0px 0px 0px 0.5px rgba(50, 50, 93, 0.1),
+      0px 2px 5px 0px rgba(50, 50, 93, 0.1), 0px 1px 1.5px 0px rgba(0, 0, 0, 0.07);
+    border-radius: 7px;
+    padding: 40px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  #payment-message {
+    color: rgb(105, 115, 134);
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 12px;
+    text-align: center;
+  }
+  
+  #payment-element {
+    margin-bottom: 24px;
+  }
+  
+  /* Buttons and links */
+  .button_stripe {
+    background: #768d5c;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    border-radius: 4px;
+    border: 0;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: block;
+    transition: all 0.2s ease;
+    box-shadow: 0px 4px 5.5px 0px rgba(0, 0, 0, 0.07);
+    width: 100%;
+  }
+  
+  .button_stripe:hover {
+    filter: contrast(115%);
+  }
+  
+  .button_stripe:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+  
+  /* spinner/processing state, errors */
+  .spinner,
+  .spinner:before,
+  .spinner:after {
+    border-radius: 50%;
+  }
+  
+  .spinner {
+    color: #ffffff;
+    font-size: 22px;
+    text-indent: -99999px;
+    margin: 0px auto;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    box-shadow: inset 0 0 0 2px;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  
+  .spinner:before,
+  .spinner:after {
+    position: absolute;
+    content: '';
+  }
+  
+  .spinner:before {
+    width: 10.4px;
+    height: 20.4px;
+    background: #97b764;
+    border-radius: 20.4px 0 0 20.4px;
+    top: -0.2px;
+    left: -0.2px;
+    -webkit-transform-origin: 10.4px 10.2px;
+    transform-origin: 10.4px 10.2px;
+    -webkit-animation: loading 2s infinite ease 1.5s;
+    animation: loading 2s infinite ease 1.5s;
+  }
+  
+  .spinner:after {
+    width: 10.4px;
+    height: 10.2px;
+    background: #97b764;
+    border-radius: 0 10.2px 10.2px 0;
+    top: -0.1px;
+    left: 10.2px;
+    -webkit-transform-origin: 0px 10.2px;
+    transform-origin: 0px 10.2px;
+    -webkit-animation: loading 2s infinite ease;
+    animation: loading 2s infinite ease;
+  }
+  
+  @keyframes loading {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .form-payments {
+      width: 80vw;
+      min-width: initial;
+    }
+  }
+
+.tab::before {
+    content: "Soon";
+    position: absolute;
+    text-transform: none;
+    top: -7px;
+    right: -5px;
+    padding: 5px;
+    color: #878f90;
+    font-size: 12px;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+.complycube-sdk-ui-crossDevice-CrossDeviceLink-qrCodeContainer {
+    display: inline-block !important;
+}
+
+.complycube-sdk-ui-Theme-defaultLogo .complycube-sdk-ui-Theme-footer .complycube-sdk-ui-Theme-logo {
+    background-image: url("https://cdn.ethpays.co/v1/images/static/poweredby.png") !important;
+}
+
+.transactions-brief-sell {
+    color: rgba(220, 44, 47, 0.75) !important;
+    font-size: 17px;
+}
+
+.transactions-brief-buy {
+    color: rgba(118, 141, 92, 0.75) !important;
+    font-size: 17px;
+}
+
+.left-align-item {
+    justify-content: flex-start !important;
+    text-align: left !important;
+  }
